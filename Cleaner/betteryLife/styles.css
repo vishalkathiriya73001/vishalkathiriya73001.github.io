@@ -1,0 +1,59 @@
+h4 {
+    display: block;
+    font-size: 1.3em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lato';
+}
+
+h5 {
+    display: block;
+    font-size: 1.0em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lato';
+}
+
+p {
+    color: white;
+    font-family: 'Lato';
+    font-weight: normal;
+}
+
+ol {
+    color: white;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+}
+
+body {
+    background-color: #060709;
+    padding: 1em;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for devices with a maximum width of 600 pixels (typical for mobile devices) */
+@media only screen and (max-width: 600px) {
+    img {
+        margin: 5px auto; /* Adjust margin for smaller screens */
+    }
+}
