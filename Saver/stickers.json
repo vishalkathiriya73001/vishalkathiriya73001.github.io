@@ -1,0 +1,42 @@
+[
+  {
+    "name" : "Valentines Day",
+    "count":10,
+    "folder":"Valentines_Day"
+  },
+  {
+    "name" : "Travel",
+    "count":36,
+    "folder":"Travel"
+  },
+  {
+    "name" : "Crismash",
+    "count":15,
+    "folder":"Crismash"
+  },
+  {
+    "name" : "Black Friday",
+    "count":9,
+    "folder":"Black_Friday"
+  },
+  {
+    "name" : "Sale",
+    "count":9,
+    "folder":"Sale"
+  },
+  {
+    "name" : "Summer",
+    "count":24,
+    "folder":"Summer"
+  },
+  {
+    "name" : "Halloween",
+    "count":21,
+    "folder":"Halloween"
+  },
+  {
+    "name" : "Great Job",
+    "count":6,
+    "folder":"Great_Job"
+  }
+]
