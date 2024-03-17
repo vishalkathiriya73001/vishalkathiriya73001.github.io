@@ -8,8 +8,9 @@
         "monthInApp": "$2.49 at per month"
     },
     "dataApp":{
-        "App_URL": "https://vishalkathiriya73001.github.io/Cleaner/privacy_policy.html",
-        "String_PL": "https://vishalkathiriya73001.github.io/Cleaner/privacy_policy.html",
+        "app_id":"1475887456",
+        "app_URL": "https://apps.apple.com/us/app/boost-cleaner-clean-up-smart/id1475887456",
+        "string_PL": "https://vishalkathiriya73001.github.io/Cleaner/privacy_policy.html",
         "bannerImg": "https://vishalkathiriya73001.github.io/Cleaner/banner_img.png",
         "versionCode": "1.0",
         "isIntroScreen":true,
