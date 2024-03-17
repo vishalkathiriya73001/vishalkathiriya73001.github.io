@@ -8,8 +8,9 @@
         "monthInApp": "$2.49 at per month"
     },
     "dataApp":{
-        "String_PL": "https://pethanihiten.github.io/Cleaner/privacy_policy.html",
-        "bannerImg": "https://pethanihiten.github.io/Cleaner/banner_img.png",
+        "App_URL": "https://vishalkathiriya73001.github.io/Cleaner/privacy_policy.html",
+        "String_PL": "https://vishalkathiriya73001.github.io/Cleaner/privacy_policy.html",
+        "bannerImg": "https://vishalkathiriya73001.github.io/Cleaner/banner_img.png",
         "versionCode": "1.0",
         "isIntroScreen":true,
         "deviceInfoScreenSubNative":true,
