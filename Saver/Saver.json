@@ -3,8 +3,8 @@
     "status_code": 200,
     "msg": "Get successfully!",
     "data": {
-        "consentMessage": true,
-        "isInAppAvailable": true,
+        "consentMessage": false,
+        "isInAppAvailable": false,
         "yearInApp": "$19.99 at per year",
         "monthInApp": "$2.49 at per month",
         "admob_App_Id": "ca-app-pub-2329555560597510~5492130486",
@@ -16,8 +16,8 @@
         "admob_Open": "ca-app-pub-3940256099942544/3419835294",
         "String_PL": "https://pethanihiten.github.io/Saver/privacy_policy.html",
         "bannerImg":"https://pethanihiten.github.io/Saver/banner_img.png",
-        "dashBoardMenu":["TopRank","Downloader","Menu"],
-        "isSocialTopRank":true,
+        "dashBoardMenu":["Menu"],
+        "isSocialTopRank":false,
         "webJS":"https://pethanihiten.github.io/Saver/instagram-dl.js",
         "isSearchButtonWebView":false,
         "DownloadApiDetails":{
