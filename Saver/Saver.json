@@ -50,7 +50,7 @@
         "nativeCounter":5,
         "versionCode": "1.0",
         "isUpdatePopupShow":false,
-        "isAdsInterestialPhotoEditScreen":tfalse,
+        "isAdsInterestialPhotoEditScreen":false,
         "isAdsVideoPhotoEditScreen":false,
         "isAdsInterestialPhotoCropScreen":false,
         "isAdsVideoPhotoCropScreen":true,
