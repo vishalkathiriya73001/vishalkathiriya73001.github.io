@@ -17,7 +17,7 @@
         "String_PL": "https://vishalkathiriya73001.github.io/Saver/privacy_policy.html",
         "bannerImg":"https://vishalkathiriya73001.github.io/Saver/banner_img.png",
         "dashBoardMenu":["TopRank", "Menu"],
-        "isSocialTopRank":false,
+        "isSocialTopRank":true,
         "webJS":"https://vishalkathiriya73001.github.io/Saver/instagram-dl.js",
         "isSearchButtonWebView":false,
         "DownloadApiDetails":{
