@@ -35,12 +35,12 @@
         "dashbordMenu":["Cleaner","Tools"]
     },
     "adsData": {
-        "isActiveAds":false,
-        "consentMessage": false,
-        "isActiveOpen":false,
+        "isActiveAds":true,
+        "consentMessage": true,
+        "isActiveOpen":true,
         "isActiveInterestial":true,
         "isActiveNative":true,
-        "isActiveBanner":false,
+        "isActiveBanner":true,
         "adsType":"Google",
         "admob_App_Id": "ca-app-pub-2329555560597510~5492130486",
         "admob_Banner": "ca-app-pub-3940256099942544/2934735716",
