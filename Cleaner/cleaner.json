@@ -13,7 +13,7 @@
         "string_PL": "https://vishalkathiriya73001.github.io/Cleaner/privacy_policy.html",
         "bannerImg": "https://vishalkathiriya73001.github.io/Cleaner/banner_img.png",
         "versionCode": "1.0",
-        "isIntroScreen":true,
+        "isIntroScreen":false,
         "deviceInfoScreenSubNative":true,
         "deviceInfoScreenBanner":true,
         "cleanerScreenNative":true,
