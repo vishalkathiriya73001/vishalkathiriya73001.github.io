@@ -33,15 +33,15 @@
         "batteryLifeScreenBanner":true,
         "videoCompressScreenNative":true,
         "zipScreenNative":true,
-        "dashbordMenu":["Device Info","Cleaner","Tools","More Tools"]
+        "dashbordMenu":["Device Info","Cleaner","Tools"]
     },
     "adsData": {
-        "isActiveAds":true,
+        "isActiveAds":false,
         "consentMessage": false,
-        "isActiveOpen":true,
-        "isActiveInterestial":true,
-        "isActiveNative":true,
-        "isActiveBanner":true,
+        "isActiveOpen":false,
+        "isActiveInterestial":false,
+        "isActiveNative":false,
+        "isActiveBanner":false,
         "adsType":"Google",
         "admob_App_Id": "ca-app-pub-2329555560597510~5492130486",
         "admob_Banner": "ca-app-pub-2329555560597510/2549506406",
