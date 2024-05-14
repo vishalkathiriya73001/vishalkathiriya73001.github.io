@@ -67,27 +67,27 @@
     "adsLocal": [
         {
           "appStoreID": "6480342385",
-          "name": "Instagram Downloader",
+          "name": "Instagram Downloader & Repost Tools",
           "title": "IGSaver for Instagram",
           "description": "Download Video Instagram, Photo, Reels, Stories, IGTV online.",
           "media": "https://vishalkathiriya73001.github.io/Saver/igsaver.png",
           "appIcon": "",
-          "backgroundColor": "19001F",
+          "backgroundColor": "fd4b4b",
           "textColor": "ffffff",
-          "tintColor": "ffffff",
+          "tintColor": "e8299b",
           "fullscreen": false,
           "transparent": false
         },
         {
           "appStoreID": "1552144592",
-          "name": "Music Video Maker",
+          "name": "Music Video Maker and Instagram Downloader",
           "title": "Magically: Music Video Maker",
           "description": "Magically Video Maker will help you to make the awesome effective video.",
-          "media": "https://vishalkathiriya73001.github.io/Saver/megic.png",
+          "media": "https://pub-378e0dd96b5343108a04317ebddebb4e.r2.dev/volo-1588877511.jpg",
           "appIcon": "",
-          "backgroundColor": "000000",
+          "backgroundColor": "252525",
           "textColor": "ffffff",
-          "tintColor": "F9B959",
+          "tintColor": "f43636",
           "fullscreen": false,
           "transparent": false
         }
