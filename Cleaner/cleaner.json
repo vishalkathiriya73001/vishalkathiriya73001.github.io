@@ -9,7 +9,7 @@
     },
     "dataApp":{
         "app_Id":"1569814644",
-        "app_URL": "https://apps.apple.com/in/app/easy-phone-cleaner-master/id15698146446",
+        "app_URL": "https://apps.apple.com/in/app/easy-phone-cleaner-master/id1569814644",
         "string_PL": "https://vishalkathiriya73001.github.io/Cleaner/privacy_policy.html",
         "bannerImg": "https://vishalkathiriya73001.github.io/Cleaner/banner_img.png",
         "versionCode": "1.0",
@@ -66,11 +66,11 @@
     },
     "adsLocal": [
         {
-          "appStoreID": "1661833753",
-          "name": "Gola AI",
-          "title": "Let AI help you with your goals",
-          "description": "Achieve your goals with Gola and get motivation from an AI-powered advice generator.",
-          "media": "https://pub-378e0dd96b5343108a04317ebddebb4e.r2.dev/AIAd.jpg",
+          "appStoreID": "6480342385",
+          "name": "Instagram Downloader",
+          "title": "IGSaver for Instagram",
+          "description": "Download Video Instagram, Photo, Reels, Stories, IGTV online.",
+          "media": "https://scontent.fstv5-1.fna.fbcdn.net/v/t39.2365-6/440282529_1002164758140891_3346215084738728277_n.webp",
           "appIcon": "",
           "backgroundColor": "19001F",
           "textColor": "ffffff",
@@ -79,10 +79,10 @@
           "transparent": false
         },
         {
-          "appStoreID": "1588877511",
-          "name": "Volo",
-          "title": "Track your Kitesurfing on Apple Watch",
-          "description": "Volo is a kitesurfing workout app for watchOS and iOS that lets you track jumps and save the sessions into Fitness.",
+          "appStoreID": "1552144592",
+          "name": "Music Video Maker",
+          "title": "Magically: Music Video Maker",
+          "description": "Magically Video Maker will help you to make the awesome effective video.",
           "media": "https://pub-378e0dd96b5343108a04317ebddebb4e.r2.dev/volo-1588877511.jpg",
           "appIcon": "",
           "backgroundColor": "000000",
