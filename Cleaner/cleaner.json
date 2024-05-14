@@ -29,8 +29,8 @@
         "secureKeyScreenBanner":true,
         "speedTestScreenBanner":true,
         "discoverToolsScreenNative":true,
-        "batteryDetailsScreenNative":true,
-        "batteryLifeScreenBanner":true,
+        "batteryDetailsScreenNative":false,
+        "batteryLifeScreenBanner":false,
         "videoCompressScreenNative":true,
         "zipScreenNative":true,
         "dashbordMenu":["Device Info","Cleaner","Tools","More Tools"]
