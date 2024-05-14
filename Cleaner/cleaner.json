@@ -36,9 +36,9 @@
         "dashbordMenu":["Device Info","Cleaner","Tools"]
     },
     "adsData": {
-        "isActiveAds":false,
-        "consentMessage": false,
-        "isActiveOpen":false,
+        "isActiveAds":true,
+        "consentMessage": true,
+        "isActiveOpen":true,
         "isActiveInterestial":false,
         "isActiveNative":false,
         "isActiveBanner":false,
@@ -54,7 +54,7 @@
         "fb_Interstitial": "",
         "fb_Native": "",
         "fb_Reward": "",
-        "isIntroOpen":false,
+        "isIntroOpen":true,
         "interestialCount":5,
         "admobBannerCollapsible":true,
         "nativeAdsTheme":"black",
