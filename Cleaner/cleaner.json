@@ -42,6 +42,7 @@
         "isActiveInterestial":true,
         "isActiveNative":true,
         "isActiveBanner":true,
+        "isaAdsLocal":false,
         "adsType":"Google",
         "admob_App_Id": "ca-app-pub-2329555560597510~5492130486",
         "admob_Banner": "ca-app-pub-2329555560597510/2549506406",
@@ -89,45 +90,6 @@
           "tintColor": "F9B959",
           "fullscreen": false,
           "transparent": false
-        },
-        {
-          "appStoreID": "1661833753",
-          "name": "Gola",
-          "title": "Stay on top of your goals",
-          "description": "Gola is a beautiful app for iOS and watchOS to help you track your bigger yearly goals and not only offers reminders but also fun little widgets.",
-          "media": "https://pub-378e0dd96b5343108a04317ebddebb4e.r2.dev/goalTypes.jpg",
-          "appIcon": "",
-          "backgroundColor": "02071E",
-          "textColor": "ffffff",
-          "tintColor": "ffffff",
-          "fullscreen": false,
-          "transparent": false
-        },
-        {
-          "appStoreID": "6446047813",
-          "name": "Petey",
-          "title": "Have fun with ChatGPT",
-          "description": "Meet Petey, the AI assistant app for the iPhone & Apple Watch! With this app, you can now talk with ChatGPT right on the go.",
-          "media": "https://pub-378e0dd96b5343108a04317ebddebb4e.r2.dev/petey-header.png",
-          "appIcon": "",
-          "backgroundColor": "000000",
-          "textColor": "ffffff",
-          "tintColor": "00D9FF",
-          "fullscreen": false,
-          "transparent": true
-        },
-        {
-          "appStoreID": "6448878100",
-          "name": "Today",
-          "title": "Today, track your day",
-          "description": "Set goals, track your day. Today.",
-          "media": "https://pub-378e0dd96b5343108a04317ebddebb4e.r2.dev/6448878100%2Btoday.png",
-          "appIcon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/72/56/a4/7256a49c-1ac5-7bc0-7ce0-9dbb57e51ad4/AppIcon-0-1x_U007ephone-85-220.jpeg/100x100bb.jpg",
-          "backgroundColor": "85102a",
-          "textColor": "ffffff",
-          "tintColor": "ffffff",
-          "fullscreen": false,
-          "transparent": true
         }
      ]
 }
