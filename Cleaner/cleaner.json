@@ -33,7 +33,7 @@
         "batteryLifeScreenBanner":true,
         "videoCompressScreenNative":true,
         "zipScreenNative":true,
-        "dashbordMenu":["Device Info","Cleaner","Tools"]
+        "dashbordMenu":["Device Info","Cleaner","Tools","More Tools"]
     },
     "adsData": {
         "isActiveAds":true,
