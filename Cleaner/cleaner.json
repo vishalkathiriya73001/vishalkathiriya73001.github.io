@@ -40,6 +40,7 @@
         "consentMessage": false,
         "isActiveOpen":false,
         "isActiveInterestial":false,
+        "isActiveReward":true,
         "isActiveNative":true,
         "isActiveBanner":true,
         "isaAdsLocal":false,
