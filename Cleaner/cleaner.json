@@ -37,9 +37,9 @@
     },
     "adsData": {
         "isActiveAds":true,
-        "consentMessage": true,
-        "isActiveOpen":true,
-        "isActiveInterestial":true,
+        "consentMessage": false,
+        "isActiveOpen":false,
+        "isActiveInterestial":false,
         "isActiveNative":true,
         "isActiveBanner":true,
         "isaAdsLocal":false,
