@@ -14,7 +14,7 @@
         "bannerImg": "https://vishalkathiriya73001.github.io/Cleaner/banner_img.png",
         "versionCode": "1.0",
         "isIntroScreen":true,
-        "isIntroScreenGuide":true,
+        "isIntroScreenGuide":false,
         "deviceInfoScreenSubNative":true,
         "deviceInfoScreenBanner":true,
         "cleanerScreenNative":true,
