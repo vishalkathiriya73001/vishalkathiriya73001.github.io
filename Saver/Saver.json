@@ -3,8 +3,15 @@
     "status_code": 200,
     "msg": "Get successfully!",
     "data": {
+        "isActiveAds":false,
         "consentMessage": false,
         "isInAppAvailable": false,
+        "isActiveOpen":false,
+        "isIntroOpen":false,
+        "isActiveInterestial":false,
+        "isActiveNative":false,
+        "isActiveBanner":false,
+        "AdsType":"Google",
         "yearInApp": "$19.99 at per year",
         "monthInApp": "$2.49 at per month",
         "admob_App_Id": "ca-app-pub-2329555560597510~5492130486",
@@ -17,9 +24,10 @@
         "String_PL": "https://vishalkathiriya73001.github.io/Saver/privacy_policy.html",
         "bannerImg":"https://vishalkathiriya73001.github.io/Saver/banner_img.png",
         "dashBoardMenu":["TopRank","Downloader","Menu"],
+        "homeInstagramWebViewOrLink":true,
         "isSocialTopRank":true,
-        "webJS":"https://vishalkathiriya73001.github.io/Saver/instagram-dl.js",
         "isSearchButtonWebView":false,
+        "webJS":"https://vishalkathiriya73001.github.io/Saver/instagram-dl.js",
         "DownloadApiDetails":{
             "downloadURL" :"https://igram.live/wp-json/igram/video-data/",
             "className":"medias",
@@ -38,13 +46,6 @@
         },
         "isTop100TagsAPI":true,
         "isSearchTagsHTML":false,
-        "isActiveAds":false,
-        "isActiveOpen":false,
-        "isIntroOpen":false,
-        "isActiveInterestial":false,
-        "isActiveNative":false,
-        "isActiveBanner":false,
-        "AdsType":"Google",
         "NativeAdsTheme":"black",
         "interestialCount":5,
         "nativeCounter":5,
@@ -60,5 +61,33 @@
         "isAdsInterestialRepost":false,
         "isAdsVideoRepost":false,
         "isAdsVideoDownload":false,
-    }
+    },
+    "adsLocal": [
+        {
+          "appStoreID": "6480342385",
+          "name": "Instagram Downloader & Repost Tools",
+          "title": "IGSaver for Instagram",
+          "description": "Download Video Instagram, Photo, Reels, Stories, IGTV online.",
+          "media": "https://vishalkathiriya73001.github.io/Saver/igsaver.png",
+          "appIcon": "",
+          "backgroundColor": "0c0c0c",
+          "textColor": "ffffff",
+          "tintColor": "fe2f77",
+          "fullscreen": false,
+          "transparent": false
+        },
+        {
+          "appStoreID": "1552144592",
+          "name": "Music Video Maker and Instagram Downloader",
+          "title": "Magically: Music Video Maker",
+          "description": "Magically Video Maker will help you to make the awesome effective video.",
+          "media": "https://vishalkathiriya73001.github.io/Saver/megic.png",
+          "appIcon": "",
+          "backgroundColor": "0c0c0c",
+          "textColor": "ffffff",
+          "tintColor": "fe2f77",
+          "fullscreen": false,
+          "transparent": false
+        }
+     ]
 }
