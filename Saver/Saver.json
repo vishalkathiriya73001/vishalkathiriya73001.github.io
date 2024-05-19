@@ -24,6 +24,7 @@
         "String_PL": "https://vishalkathiriya73001.github.io/Saver/privacy_policy.html",
         "bannerImg":"https://vishalkathiriya73001.github.io/Saver/banner_img.png",
         "dashBoardMenu":["TopRank","Downloader","Menu"],
+        "dashBoardSubMenu":["TopRank","Downloader","Menu"],
         "homeInstagramWebViewOrLink":"Link",
         "isSocialTopRank":true,
         "isSearchButtonWebView":false,
