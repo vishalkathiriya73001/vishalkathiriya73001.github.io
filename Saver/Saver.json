@@ -26,7 +26,7 @@
         "dashBoardMenu":["TopRank","Downloader","Menu"],
         "dashBoardSubMenu":["AI Post Writing Tools","Hashtag","Repost","Photo Editor","Grid Maker","Panora Maker","Engagement Rate","Social Tools","History"],
         "dashBoardGrid":3,
-        "bottomTabBar":true,
+        "bottomTabBar":false,
         "homeInstagramWebViewOrLink":"Link",
         "isSocialTopRank":true,
         "isSearchButtonWebView":false,
