@@ -29,6 +29,7 @@
         "dashBoardGrid":3,
         "bottomTabBar":true,
         "homeInstagramWebViewOrLink":"Link",
+        "homePlusButtonWebViewOrLink":"Link",
         "isSearchButtonWebView":true,
         "isSocialTopRank":true,
         "webJS":"https://vishalkathiriya73001.github.io/Saver/instagram-dl.js",
