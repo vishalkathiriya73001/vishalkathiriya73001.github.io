@@ -27,9 +27,9 @@
         "dashBoardSubMenu":["AI Post Writing Tools","Hashtag","Engagement Rate"],
         "dashBoardToolMenu":["Repost","Photo Editor","Grid Maker","Panora Maker","Social Tools","History"],
         "dashBoardGrid":3,
-        "bottomTabBar":false,
+        "bottomTabBar":true,
         "homeInstagramWebViewOrLink":"Link",
-        "isSearchButtonWebView":false,
+        "isSearchButtonWebView":true,
         "isSocialTopRank":true,
         "webJS":"https://vishalkathiriya73001.github.io/Saver/instagram-dl.js",
         "DownloadApiDetails":{
