@@ -30,7 +30,7 @@
         "bottomTabBar":true,
         "homeInstagramWebViewOrLink":"Link",
         "homePlusButtonWebViewOrLink":"Link",
-        "isSearchButtonWebView":true,
+        "isSearchButtonWebView":false,
         "isSocialTopRank":true,
         "webJS":"https://vishalkathiriya73001.github.io/Saver/instagram-dl.js",
         "DownloadApiDetails":{
