@@ -28,7 +28,7 @@
         "dashBoardToolMenu":["Repost","Photo Editor","Grid Maker","Panora Maker","Social Tools","History"],
         "dashBoardGrid":3,
         "bottomTabBar":true,
-        "homeInstagramWebViewOrLink":"Link",
+        "homeInstagramWebViewOrLink":"WebView",
         "homePlusButtonWebViewOrLink":"Link",
         "isSearchButtonWebView":false,
         "isSocialTopRank":true,
