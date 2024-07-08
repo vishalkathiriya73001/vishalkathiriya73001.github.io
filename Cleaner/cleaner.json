@@ -58,7 +58,7 @@
         "fb_Reward": "",
         "isIntroOpen":false,
         "interestialCount":3,
-        "admobBannerCollapsible":true,
+        "admobBannerCollapsible":false,
         "nativeAdsTheme":"black",
         "nativeAdsThemeButtonGradient":false,
         "smallMediumNativeAdView":true,
