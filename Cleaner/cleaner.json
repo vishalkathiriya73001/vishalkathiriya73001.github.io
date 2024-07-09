@@ -58,10 +58,10 @@
         "fb_Reward": "",
         "isIntroOpen":false,
         "interestialCount":3,
-        "admobBannerCollapsible":false,
         "nativeAdsTheme":"black",
         "nativeAdsThemeButtonGradient":false,
-        "smallMediumNativeAdView":true,
+        "smallMediumNativeAdView":false,
+        "admobBannerCollapsible":false,
         "nativeCounter":5,
         "nativeCorner":0
     },
