@@ -36,7 +36,7 @@
         "dashbordMenu":["Device Info","Cleaner","Tools","More Tools"]
     },
     "adsData": {
-        "isActiveAds":true,
+        "isActiveAds":false,
         "consentMessage": true,
         "isActiveOpen":true,
         "isIntroOpen":false,
