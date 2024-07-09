@@ -56,7 +56,7 @@
         "fb_Interstitial": "",
         "fb_Native": "",
         "fb_Reward": "",
-        "isIntroOpen":true,
+        "isIntroOpen":false,
         "interestialCount":3,
         "admobBannerCollapsible":false,
         "nativeAdsTheme":"black",
