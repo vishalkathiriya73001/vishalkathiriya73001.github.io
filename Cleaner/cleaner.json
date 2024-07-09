@@ -41,7 +41,7 @@
         "isActiveOpen":true,
         "isActiveInterestial":true,
         "isActiveReward":true,
-        "isActiveNative":false,
+        "isActiveNative":true,
         "isActiveBanner":false,
         "isaAdsLocal":false,
         "adsType":"Google",
