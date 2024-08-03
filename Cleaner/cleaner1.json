@@ -4,9 +4,8 @@
     "msg": "Get successfully!",
     "inAppData":{
         "isInAppAvailable": true,
-        "newPrice": false,
-        "yearInApp": "$19.49 at per year",
-        "monthInApp": "$2.49 at per month"
+        "yearInApp": 19.49,
+        "monthInApp": 2.49,
     },
     "dataApp":{
         "app_Id":"1569814644",
