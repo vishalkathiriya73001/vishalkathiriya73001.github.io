@@ -38,8 +38,8 @@
     "adsData": {
         "isActiveAds":true,
         "consentMessage": true,
-        "isActiveOpen":false,
-        "isIntroOpen":false,
+        "isActiveOpen":true,
+        "isIntroOpen":true,
         "isActiveInterestial":true,
         "isActiveReward":true,
         "isActiveNative":true,
