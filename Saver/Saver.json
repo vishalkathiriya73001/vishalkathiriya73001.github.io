@@ -25,7 +25,7 @@
         "bannerImg":"https://vishalkathiriya73001.github.io/Saver/banner_img.png",
         "dashBoardMenu":["TopRank","Menu","ToolMenu"],
         "dashBoardSubMenu":["AI Post Writing Tools","Hashtag","Engagement Rate"],
-        "dashBoardToolMenu":["Repost","Photo Editor","Grid Maker","Panora Maker","Social Tools"],
+        "dashBoardToolMenu":["Repost","Photo Editor","Grid Maker","Panora Maker","Social Tools","History"],
         "dashBoardGrid":3,
         "bottomTabBar":false,
         "homeInstagramWebViewOrLink":"WebView",
