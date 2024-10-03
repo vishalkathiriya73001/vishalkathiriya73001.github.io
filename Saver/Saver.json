@@ -27,7 +27,7 @@
         "dashBoardSubMenu":["AI Post Writing Tools","Hashtag","Engagement Rate"],
         "dashBoardToolMenu":["Photo Editor","Grid Maker","Panora Maker","Social Tools","History"],
         "dashBoardGrid":3,
-        "bottomTabBar":false,
+        "bottomTabBar":true,
         "homeInstagramWebViewOrLink":"WebView",
         "homePlusButtonWebViewOrLink":"Link",
         "isSearchButtonWebView":false,
