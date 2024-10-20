@@ -3,7 +3,7 @@
     "status_code": 200,
     "msg": "Get successfully!",
     "inAppData":{
-        "isInAppAvailable": true,
+        "isInAppAvailable": false,
         "yearInApp": 19.49,
         "monthInApp": 2.49
     },
@@ -45,6 +45,7 @@
         "isActiveNative":true,
         "isActiveBanner":true,
         "isaAdsLocal":false,
+        "isRatingShow":true,
         "adsType":"Google",
         "admob_App_Id": "ca-app-pub-2329555560597510~5492130486",
         "admob_Banner": "ca-app-pub-2329555560597510/2549506406",
