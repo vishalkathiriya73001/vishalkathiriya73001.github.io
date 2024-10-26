@@ -13,8 +13,8 @@
         "string_PL": "https://vishalkathiriya73001.github.io/Cleaner/privacy_policy.html",
         "bannerImg": "https://vishalkathiriya73001.github.io/Cleaner/banner_img.png",
         "versionCode": "1.0",
-        "isIntroScreen":true,
-        "isIntroScreenGuide":true,
+        "isIntroScreen":false,
+        "isIntroScreenGuide":false,
         "deviceInfoScreenSubNative":true,
         "deviceInfoScreenBanner":true,
         "cleanerScreenNative":true,
@@ -36,8 +36,8 @@
         "dashbordMenu":["Device Info","Cleaner","Tools","More Tools"]
     },
     "adsData": {
-        "isActiveAds":true,
-        "consentMessage": true,
+        "isActiveAds":false,
+        "consentMessage": false,
         "isActiveOpen":true,
         "isIntroOpen":true,
         "isActiveInterestial":true,
