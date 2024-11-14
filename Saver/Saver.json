@@ -23,12 +23,12 @@
         "admob_Open": "ca-app-pub-3940256099942544/3419835294",
         "String_PL": "https://vishalkathiriya73001.github.io/Saver/privacy_policy.html",
         "bannerImg":"https://vishalkathiriya73001.github.io/Saver/banner_img.png",
-        "dashBoardMenu":["TopRank","Menu","ToolMenu"],
+        "dashBoardMenu":["TopRank","Downloader","Menu","ToolMenu"],
         "dashBoardSubMenu":["AI Post Writing Tools","Hashtag","Engagement Rate"],
-        "dashBoardToolMenu":["Photo Editor","Grid Maker","Panora Maker","Social Tools","History"],
+        "dashBoardToolMenu":["Repost","Photo Editor","Grid Maker","Panora Maker","Social Tools","History"],
         "dashBoardGrid":3,
-        "bottomTabBar":false,
-        "homeInstagramWebViewOrLink":"WebView",
+        "bottomTabBar":true,
+        "homeInstagramWebViewOrLink":"Link",
         "homePlusButtonWebViewOrLink":"Link",
         "isSearchButtonWebView":false,
         "isSocialTopRank":true,
@@ -56,11 +56,11 @@
         "nativeCounter":5,
         "versionCode": "1.0",
         "isUpdatePopupShow":false,
-        "isAdsNativeSocialDetailsScreen":false,
+        "isAdsNativeSocialDetailsScreen":true,
         "isAdsInterestialPhotoEditScreen":false,
         "isAdsVideoPhotoEditScreen":false,
         "isAdsInterestialPhotoCropScreen":false,
-        "isAdsVideoPhotoCropScreen":false,
+        "isAdsVideoPhotoCropScreen":true,
         "isAdsInterestialHashTagsCopy":false,
         "isAdsVideoHashTagsCopy":false,
         "isAdsInterestialRepost":false,
@@ -94,5 +94,5 @@
           "fullscreen": false,
           "transparent": false
         }
-    ]
+     ]
 }
