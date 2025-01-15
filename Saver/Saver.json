@@ -3,8 +3,8 @@
     "status_code": 200,
     "msg": "Get successfully!",
     "data": {
-        "isActiveAds":false,
-        "consentMessage": false,
+        "isActiveAds":true,
+        "consentMessage": true,
         "isInAppAvailable": false,
         "isActiveOpen":false,
         "isIntroOpen":false,
