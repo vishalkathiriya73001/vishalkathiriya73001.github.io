@@ -65,7 +65,8 @@
         "isAdsVideoHashTagsCopy":false,
         "isAdsInterestialRepost":false,
         "isAdsVideoRepost":false,
-        "isAdsVideoDownload":false
+        "isAdsVideoDownload":false,
+        "isAdsWallPaperDownload":true
     },
     "adsLocal": [
         {
