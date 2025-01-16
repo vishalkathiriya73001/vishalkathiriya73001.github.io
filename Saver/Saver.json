@@ -62,7 +62,7 @@
         "isAdsInterestialPhotoCropScreen":true,
         "isAdsVideoPhotoCropScreen":false,
         "isAdsInterestialHashTagsCopy":true,
-        "isAdsVideoHashTagsCopy":true,
+        "isAdsVideoHashTagsCopy":false,
         "isAdsInterestialRepost":true,
         "isAdsVideoRepost":true,
         "isAdsVideoDownload":true,
