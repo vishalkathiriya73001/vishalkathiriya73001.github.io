@@ -6,8 +6,8 @@
         "isActiveAds":true,
         "consentMessage": true,
         "isInAppAvailable": false,
-        "isActiveOpen":true,
-        "isIntroOpen":true,
+        "isActiveOpen":false,
+        "isIntroOpen":false,
         "isActiveInterestial":true,
         "isActiveNative":true,
         "isActiveBanner":true,
@@ -66,7 +66,7 @@
         "isAdsInterestialRepost":true,
         "isAdsVideoRepost":true,
         "isAdsVideoDownload":true,
-        "isAdsWallPaperDownload":true
+        "isAdsWallPaperDownload":false
     },
     "adsLocal": [
         {
