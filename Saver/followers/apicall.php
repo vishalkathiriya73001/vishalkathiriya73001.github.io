@@ -6,7 +6,8 @@ ini_set('display_errors', 1);
 // Path to your JSON file
 $json_file = '100.json';
 
-
+// https://socialbook.io/instagram-channel-rank/top-100-instagrammers
+// https://socialbook.io/api/tool/channel/rank_list?size=100&channel=instagram&country=all&category=all&sort_field=followers
 
 // Read the JSON file
 $json_data = file_get_contents($json_file);
