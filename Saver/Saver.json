@@ -51,7 +51,7 @@
         },
         "isTop100TagsAPI":true,
         "isSearchTagsHTML":false,
-        "NativeAdsTheme":"black",
+        "NativeAdsTheme":"",
         "interestialCount":5,
         "nativeCounter":5,
         "versionCode": "1.0",
