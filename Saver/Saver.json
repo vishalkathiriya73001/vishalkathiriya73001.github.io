@@ -60,7 +60,7 @@
         "isAdsInterestialPhotoEditScreen":true,
         "isAdsVideoPhotoEditScreen":true,
         "isAdsInterestialPhotoCropScreen":true,
-        "isAdsVideoPhotoCropScreen":true,
+        "isAdsVideoPhotoCropScreen":false,
         "isAdsInterestialHashTagsCopy":true,
         "isAdsVideoHashTagsCopy":true,
         "isAdsInterestialRepost":true,
