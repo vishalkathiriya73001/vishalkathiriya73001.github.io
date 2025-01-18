@@ -36,14 +36,14 @@
         "dashbordMenu":["Device Info","Cleaner","Tools","More Tools"]
     },
     "adsData": {
-        "isActiveAds":true,
-        "consentMessage": true,
+        "isActiveAds":false,
+        "consentMessage": false,
         "isActiveOpen":false,
         "isIntroOpen":false,
         "isActiveInterestial":false,
         "isActiveReward":false,
-        "isActiveNative":true,
-        "isActiveBanner":true,
+        "isActiveNative":false,
+        "isActiveBanner":false,
         "isaAdsLocal":false,
         "isRatingShow":false,
         "adsType":"Google",
