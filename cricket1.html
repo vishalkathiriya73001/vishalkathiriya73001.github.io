@@ -1,23 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Live Stream</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        iframe {
+            width: 100%;
+            height: 60vh;
+            border: none;
+        }
+        #playButton {
+            display: none; /* Hidden by default */
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <iframe id="streamFrame" src="https://stream.crichd.sc/update/star.php?autoplay=1" 
-            width="100%" height="500px" 
-            marginheight="0" marginwidth="0" 
-            scrolling="no" frameborder="0" 
-            allowfullscreen allow="encrypted-media">
+
+    <iframe id="streamFrame" 
+            src="https://stream.crichd.sc/update/star.php?autoplay=1&mute=1" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
     </iframe>
 
+    <button id="playButton" onclick="playStream()">Play Stream</button>
+
     <script>
-        window.onload = function() {
+        document.addEventListener("DOMContentLoaded", function () {
             let iframe = document.getElementById("streamFrame");
+            let playButton = document.getElementById("playButton");
+
             setTimeout(() => {
-                iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-            }, 1000); // Small delay to ensure the iframe loads
-        };
+                try {
+                    iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                } catch (error) {
+                    console.error("Autoplay blocked or postMessage failed.", error);
+                    playButton.style.display = "block"; // Show button if autoplay fails
+                }
+            }, 2000); // Delay to ensure iframe loads
+        });
+
+        function playStream() {
+            let iframe = document.getElementById("streamFrame");
+            iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+        }
     </script>
+
 </body>
 </html>
