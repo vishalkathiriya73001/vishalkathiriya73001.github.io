@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Stream</title>
+</head>
+<body>
+    <iframe id="streamFrame" src="https://stream.crichd.sc/update/star.php?autoplay=1" 
+            width="100%" height="500px" 
+            marginheight="0" marginwidth="0" 
+            scrolling="no" frameborder="0" 
+            allowfullscreen allow="encrypted-media">
+    </iframe>
+
+    <script>
+        window.onload = function() {
+            let iframe = document.getElementById("streamFrame");
+            setTimeout(() => {
+                iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+            }, 1000); // Small delay to ensure the iframe loads
+        };
+    </script>
+</body>
+</html>
