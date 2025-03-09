@@ -2,62 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Live Stream</title>
-    <style>
-        body {
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        iframe {
-            width: 100%;
-            height: 60vh;
-            border: none;
-        }
-        #playButton {
-            display: none; /* Hidden by default */
-            margin-top: 10px;
-            padding: 10px 20px;
-            font-size: 18px;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLS Stream Player</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
 
-    <iframe id="streamFrame" 
-            src="https://stream.crichd.sc/update/star.php?autoplay=1&mute=1" 
-            allow="autoplay; encrypted-media" 
-            allowfullscreen>
-    </iframe>
+<video id="video" controls autoplay width="640" height="360"></video>
 
-    <button id="playButton" onclick="playStream()">Play Stream</button>
+<script>
+    var video = document.getElementById('video');
+    var videoSrc = "https://puc200.mytime1.top:8088/live/webcrichindi/playlist.m3u8?vidictid=201563340145&id=119771&pk=bd0665122c8b610ded4abfa13133103b3483c8ab56c9ca4f8f03dae2fd349997a08c8a6333e4934c0248b2a62dc98251d15a171943eb212156924015b48b7e89";
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            let iframe = document.getElementById("streamFrame");
-            let playButton = document.getElementById("playButton");
-
-            setTimeout(() => {
-                try {
-                    iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-                } catch (error) {
-                    console.error("Autoplay blocked or postMessage failed.", error);
-                    playButton.style.display = "block"; // Show button if autoplay fails
-                }
-            }, 2000); // Delay to ensure iframe loads
+    if (Hls.isSupported()) {
+        var hls = new Hls();
+        hls.loadSource(videoSrc);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+            video.play();
         });
-
-        function playStream() {
-            let iframe = document.getElementById("streamFrame");
-            iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-        }
-    </script>
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = videoSrc;
+        video.addEventListener('loadedmetadata', function() {
+            video.play();
+        });
+    }
+</script>
 
 </body>
 </html>
