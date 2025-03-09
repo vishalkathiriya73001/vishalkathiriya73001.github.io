@@ -3,35 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HLS Stream Player (Mobile & Desktop)</title>
+    <title>HLS Stream Player</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <style>
-        body { text-align: center; background-color: #000; }
-        video { width: 100%; max-width: 720px; border: 2px solid #fff; }
-    </style>
 </head>
 <body>
 
-    <video id="video" controls autoplay playsinline></video>
+<video id="video" controls autoplay width="640" height="360"></video>
 
-    <script>
-        var video = document.getElementById('video');
-        var videoSrc = "https://jf6.dunyapurkaraja.com:999/hls/star1in.m3u8?md5=I1R4O2GrB4808Cr4w6W91w&expires=1741516879";
+<script>
+    var video = document.getElementById('video');
+    var videoSrc = "https://jf6.dunyapurkaraja.com:999/hls/star1in.m3u8?md5=EVNbzLGQ84mm2If9yB_GqQ&expires=1741517055";
 
-        if (Hls.isSupported()) {  
-            var hls = new Hls();  
-            hls.loadSource(videoSrc);  
-            hls.attachMedia(video);  
-            hls.on(Hls.Events.MANIFEST_PARSED, function() {  
-                video.play();  
-            });  
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {  
-            video.src = videoSrc;  
-            video.addEventListener('loadedmetadata', function() {  
-                video.play();  
-            });  
-        }
-    </script>
+    if (Hls.isSupported()) {
+        var hls = new Hls();
+        hls.loadSource(videoSrc);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+            video.play();
+        });
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = videoSrc;
+        video.addEventListener('loadedmetadata', function() {
+            video.play();
+        });
+    }
+</script>
 
 </body>
 </html>
