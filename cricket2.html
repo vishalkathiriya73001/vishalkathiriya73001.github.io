@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video.js HLS Player</title>
-    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-    <script src="https://unpkg.com/video.js/dist/video.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.15.0/videojs-contrib-hls.js"></script>
+    <title>HLS Stream Player (Mobile & Desktop)</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <style>
+        body { text-align: center; background-color: #000; }
+        video { width: 100%; max-width: 720px; border: 2px solid #fff; }
+    </style>
 </head>
 <body>
 
-    <video id="my-video" class="video-js vjs-default-skin" controls width="100%" height="auto" playsinline>
-        <source src="https://jf5.dunyapurkaraja.com:999/hls/star1in.m3u8?md5=n0aIuf1JDp6WQS8yuQEfqQ&expires=1741516326" type="application/x-mpegURL">
-    </video>
+    <video id="video" controls autoplay playsinline></video>
 
     <script>
-        var player = videojs('my-video', {
-            autoplay: true,
-            controls: true,
-            responsive: true,
-            fluid: true
-        });
+        var video = document.getElementById('video');
+        var videoSrc = "https://jf6.dunyapurkaraja.com:999/hls/star1in.m3u8?md5=I1R4O2GrB4808Cr4w6W91w&expires=1741516879";
+
+        if (Hls.isSupported()) {  
+            var hls = new Hls();  
+            hls.loadSource(videoSrc);  
+            hls.attachMedia(video);  
+            hls.on(Hls.Events.MANIFEST_PARSED, function() {  
+                video.play();  
+            });  
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {  
+            video.src = videoSrc;  
+            video.addEventListener('loadedmetadata', function() {  
+                video.play();  
+            });  
+        }
     </script>
 
 </body>
