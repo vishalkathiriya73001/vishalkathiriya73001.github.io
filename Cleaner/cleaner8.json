@@ -45,7 +45,7 @@
         "isActiveReward":true,
         "isActiveNative":true,
         "isActiveBanner":true,
-        "isaAdsLocal":true,
+        "isaAdsLocal":false,
         "isRatingShow":true,
         "adsType":"Google",
         "admob_App_Id": "ca-app-pub-2329555560597510~5492130486",
